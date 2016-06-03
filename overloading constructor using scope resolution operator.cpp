@@ -16,17 +16,27 @@ public:
 		cout<<"i am a constructor with one argument";
 		data=d;
 	}
-void add(name a,name b)
+	~name()
+	{
+		cout<<"i am a destructor";
+	}
+	
+	void add(name,name);
+	void show();
+
+};
+//scope resolution operator is " :: "
+
+void name::add(name a,name b)
 {
 	data=a.data+b.data;
 }
-void show()
+void name::show()
 {
 	
 cout<< endl<<data<<endl;
 
 }
-};
 int main()
 {
 	name a(5),b(6),c;
