@@ -1,0 +1,36 @@
+train no. 09013
+train name-lucknow suvidha
+date-17/6/2016
+from-surat
+to-jhansi
+
+train no. 19045
+train name-tapti ganga
+date-17/6/2016
+from-surat
+to-bhusaval
+
+train no. 12627
+train name-karnataka express
+date-17/6/2016
+from-bhusaval
+to-jhansi
+
+train no.-19168
+train name-sabarmati express
+date-15/7/2016
+from-jhansi
+to-vadodara
+
+train no-12972
+train name-bvc bdts express
+date-16/7/2016
+from-vadodara
+to-jhansi
+
+train no.12944
+train name-udyog karmi
+date-15/7/2016
+from-jhansi
+to-udhna
+to-
