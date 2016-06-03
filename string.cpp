@@ -1,26 +1,41 @@
-#include<stdio.h>
 #include<iostream>
+#include<conio.h>
 using namespace std;
-class sub
-{
+class abc{
 	private:
 		char *str;
 		public:
-			int read()
+			void read()
 			{
-				
-				cout<<"enter the string"<<endl;
+				cout<<"Enter the string"<<endl;
 				cin>>str;
 			}
-			int show()
+		
+			void toupper()
+			{
+				
+		int i=0;
+		while(*(str+i)!='\0')
+		{
+			cout<<*(str+i)<<endl;
+			if(*(str+i)>='a'&&*(str+i)<='z')
+			{
+				*(str+i)-=32;
+			}
+			i++;
+		}
+			}
+				void show()
 			{
 				cout<<str<<endl;
-			}
 			
+			}
 };
 int main()
 {
-sub s;
+	abc s;
 	s.read();
+	s.toupper();
 	s.show();
+	
 }
